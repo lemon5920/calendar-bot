@@ -7,6 +7,8 @@
 - `/today_events` : 列出「自己」今日所有活動。
 - `/today_events_who` : 列出「某人」今日活動。command 下完後，會出現 User Selector 跟你互動。
 
+註：所有訊息都是透過 `postEphemeral` 發出，只有互動者可見，因此如果在群組中使用，並不會影響到其他人，可以盡情的跟機器人互動。
+
 ## Configuration
 
 ### Google API Token & Calendar API
