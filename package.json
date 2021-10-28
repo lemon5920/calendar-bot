@@ -6,7 +6,8 @@
     "dev": "bottender dev",
     "lint": "eslint . ",
     "start": "bottender start",
-    "test": "jest"
+    "test": "jest",
+    "deploy-heroku": "git push heroku main"
   },
   "dependencies": {
     "bottender": "1.5.4",
