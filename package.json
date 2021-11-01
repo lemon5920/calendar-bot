@@ -7,7 +7,9 @@
     "lint": "eslint . ",
     "start": "bottender start",
     "test": "jest",
-    "deploy-heroku": "git push heroku main"
+    "deploy-heroku": "git push heroku main",
+    "set-messenger-profile": "bottender messenger profile set",
+    "set-messenger-webhook": "bottender messenger webhook set"
   },
   "dependencies": {
     "bottender": "1.5.4",

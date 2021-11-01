@@ -13,11 +13,11 @@ module.exports = async function MessengerAction(context) {
         buttons: [
           {
             type: "web_url",
-            title: "Google Webview",
-            url: "https://google.com/",
+            title: "Webview",
+            url: "https://time.is/en/",
             webviewHeightRatio: "tall",
             messengerExtensions: true,
-            fallbackUrl: "https://google.com/",
+            fallbackUrl: "https://time.is/en/",
           },
           {
             type: "web_url",
