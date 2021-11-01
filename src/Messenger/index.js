@@ -15,8 +15,8 @@ module.exports = async function MessengerAction(context) {
             type: "web_url",
             title: "Google Webview",
             url: "https://google.com/",
-            messengerExtensions: true,
             webviewHeightRatio: "tall",
+            messengerExtensions: true,
             fallbackUrl: "https://google.com/",
           },
           {
